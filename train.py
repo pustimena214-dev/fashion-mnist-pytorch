@@ -7,7 +7,7 @@ def train_model(
         train_loader,
         val_loader,
         device,
-        epochs=5):
+        epochs=3):
 
     criterion = nn.CrossEntropyLoss()
 
